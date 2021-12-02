@@ -1,0 +1,71 @@
+
+#InputEmail1{
+    width: 100%;
+    margin-bottom: 1vh;
+}
+#InputPassword1{
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+#logo{
+    margin: auto;
+    display: block;
+    padding-top:5px ;
+    padding-bottom: 10px;
+}
+  h1 {
+    overflow: hidden;
+    text-align: center;
+    font-size: 2px;
+}
+h1:before,
+h1:after {
+    background-color: #6c757d!important;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+input:focus,input:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.fa-facebook-f:before, .fa-facebook:before  {
+    content: "\f09a";
+    background-color: #385185;
+    color: white;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+input[type="email"],input[type="password"] {
+
+    background-color : #fafafa; 
+  
+  }
+  #forgotten{
+    text-align:center; 
+    text-decoration:none;
+    padding-bottom: 20px; 
+    color: #385185; 
+    font-size: 12px;
+  }
+  #facebook{
+    text-align:center;
+     color: #385185;
+     
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 11px;
